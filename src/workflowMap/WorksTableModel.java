@@ -1,20 +1,11 @@
 package workflowMap;
 
-import workflowMap.DAO;
-
 import javax.sql.rowset.CachedRowSet;
 import javax.swing.event.TableModelListener;
 import javax.swing.table.TableModel;
 import java.sql.ResultSetMetaData;
 import java.sql.SQLException;
 
-/**
- * Created with IntelliJ IDEA.
- * User: 1
- * Date: 27.11.12
- * Time: 14:48
- * To change this template use File | Settings | File Templates.
- */
 //Класс workflowMap.WorksTableModel определяет как объект типа JTable
 // извлекает и отображает данные из объекта CachedRowSet
 public class WorksTableModel implements TableModel {
@@ -55,12 +46,12 @@ public class WorksTableModel implements TableModel {
 
     @Override
     public Class<?> getColumnClass(int columnIndex) {
-        return String.class;  //To change body of implemented methods use File | Settings | File Templates.
+        return String.class;
     }
 
     @Override
     public boolean isCellEditable(int rowIndex, int columnIndex) {
-        return false;  //To change body of implemented methods use File | Settings | File Templates.
+        return false;
     }
 
     @Override
@@ -74,7 +65,30 @@ public class WorksTableModel implements TableModel {
                 return o.toString();
         } catch (SQLException e) {
             return e.toString();
-        }  //To change body of implemented methods use File | Settings | File Templates.
+        }
+    }
+
+    public Work getWorkFromRow(int rowIndex){
+        Work work = new Work();
+        if(getValueAt(rowIndex, 0) != null ){
+            work.setWorkId(getValueAt(rowIndex, 0).toString());
+        }
+        if(getValueAt(rowIndex, 1) != null ){
+            work.setWorkName(getValueAt(rowIndex, 1).toString());
+        }
+        if(getValueAt(rowIndex, 2) != null ){
+            work.setStartTime(getValueAt(rowIndex, 2).toString());
+        }
+        if(getValueAt(rowIndex, 3) != null ){
+            work.setEndTime(getValueAt(rowIndex, 3).toString());
+        }
+        if(getValueAt(rowIndex, 4) != null ){
+            work.setMainConn(getValueAt(rowIndex, 4).toString());
+        }
+        if(getValueAt(rowIndex, 5) != null ){
+            work.setSecondaryConn(getValueAt(rowIndex, 5).toString());
+        }
+        return work;
     }
     public CachedRowSet getWorksRowSet(){
         return worksRowSet;
@@ -82,18 +96,20 @@ public class WorksTableModel implements TableModel {
 
     @Override
     public void setValueAt(Object aValue, int rowIndex, int columnIndex) {
-        //To change body of implemented methods use File | Settings | File Templates.
+
     }
 
     @Override
     public void addTableModelListener(TableModelListener l) {
-        //To change body of implemented methods use File | Settings | File Templates.
+
     }
 
     @Override
     public void removeTableModelListener(TableModelListener l) {
-        //To change body of implemented methods use File | Settings | File Templates.
+
     }
+
+
 
     CachedRowSet worksRowSet;
     ResultSetMetaData metadata;

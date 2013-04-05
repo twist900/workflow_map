@@ -8,17 +8,10 @@ import javax.sql.RowSetListener;
 import javax.sql.rowset.CachedRowSet;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+import java.awt.event.MouseEvent;
+import java.awt.event.MouseListener;
 import java.sql.SQLException;
 
-/**
- * Created with IntelliJ IDEA.
- * User: 1
- * Date: 23.11.12
- * Time: 11:35
- * To change this template use File | Settings | File Templates.
- */
 public class Application extends JFrame implements RowSetListener {
     Application(){
         super("Карта хода работ");
@@ -31,7 +24,6 @@ public class Application extends JFrame implements RowSetListener {
         Dimension dimension = toolkit.getScreenSize();
         Double frameWidth = dimension.getWidth()/2;
         Double frameHeight = dimension.getHeight()/2;
-        //setBounds(100, 100, 850, 550);
         setSize(frameWidth.intValue(), frameHeight.intValue());
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
@@ -97,11 +89,41 @@ public class Application extends JFrame implements RowSetListener {
         try {
             this.worksTableModel = new WorksTableModel(dataObject);
         } catch (SQLException e) {
-            e.printStackTrace();  //To change body of catch statement use File | Settings | File Templates.
+            e.printStackTrace();
         }
         worksTable = new JTable();
         worksTable.setModel(worksTableModel);
         int rowCount = worksTable.getRowCount();
+        worksTable.addMouseListener(new MouseListener() {
+           @Override
+           public void mouseClicked(MouseEvent e) {
+               System.out.println("row num: "+worksTable.getSelectedRow());
+               workDialog.setFields(worksTableModel.getWorkFromRow(worksTable.getSelectedRow()));
+               workDialog.setVisible(true);
+
+           }
+
+           @Override
+           public void mousePressed(MouseEvent e) {
+
+           }
+
+           @Override
+           public void mouseReleased(MouseEvent e) {
+
+           }
+
+           @Override
+           public void mouseEntered(MouseEvent e) {
+
+           }
+
+           @Override
+           public void mouseExited(MouseEvent e) {
+
+           }
+       });
+
         System.out.println("number of rows: " + rowCount);
 
         //worksTable.setAutoResizeMode(JTable.AUTO_RESIZE_ALL_COLUMNS);
@@ -140,7 +162,7 @@ public class Application extends JFrame implements RowSetListener {
 
     @Override
     public void rowSetChanged(RowSetEvent event) {
-        //To change body of implemented methods use File | Settings | File Templates.
+
     }
 
     @Override
@@ -161,12 +183,12 @@ public class Application extends JFrame implements RowSetListener {
                             ex.getMessage()
                     }
             );
-        }//To change body of implemented methods use File | Settings | File Templates.
+        }
     }
 
     @Override
     public void cursorMoved(RowSetEvent event) {
-        //To change body of implemented methods use File | Settings | File Templates.
+
     }
     WorksTableModel worksTableModel;
     AppController appController;

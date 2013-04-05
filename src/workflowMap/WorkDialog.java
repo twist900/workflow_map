@@ -1,21 +1,26 @@
 package workflowMap;
 
-import net.miginfocom.swing.MigLayout;
-
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 
-/**
- * Created with IntelliJ IDEA.
- * User: 1
- * Date: 19.03.13
- * Time: 16:52
- * To change this template use File | Settings | File Templates.
- */
 public class WorkDialog extends JDialog {
-    public WorkDialog(JFrame parentFrame, boolean isModal){
 
+    WorkDialog workDialog;
+
+    private JTextField jtfId = new JTextField();
+    private JTextField jtfName = new JTextField();
+    private JTextField jtfStart = new JTextField();
+    private JTextField jtfEnd = new JTextField();
+    private JTextField jtfMainConn = new JTextField();
+    private JTextField jtfSecConn = new JTextField();
+
+    private JButton jbtSubmit = new JButton("Сохранить");
+
+    public WorkDialog(JFrame parentFrame, boolean isModal){
         super(parentFrame, isModal);
+        workDialog = this;
         setTitle("Работа");
         Toolkit toolkit = Toolkit.getDefaultToolkit();
         Dimension dimension = toolkit.getScreenSize();
@@ -23,40 +28,66 @@ public class WorkDialog extends JDialog {
         Double frameHeight = dimension.getHeight()/3;
         setSize(frameWidth.intValue(), frameHeight.intValue());
 
-        JPanel mainPanel = new JPanel(new MigLayout("fill"));
-        JPanel workLabelsPanel = new JPanel(new MigLayout());
-        workLabelsPanel.add(new JLabel("Номер работы"), "cell 0 0");
-        workLabelsPanel.add(new JLabel("Название работы"), "cell 0 1 ");
-        workLabelsPanel.add(new JLabel("Начало работы"), "cell 0 2");
-        workLabelsPanel.add(new JLabel("Конец работы"), "cell 0 3");
-        workLabelsPanel.add(new JLabel("Главная связь"), "cell 0 4");
-        workLabelsPanel.add(new JLabel("Второстепенные связи"), "cell 0 5");
+        JPanel p1 = new JPanel(new GridLayout(6, 2));
+        p1.add(new JLabel("Номер работы"));
+        p1.add(jtfId);
 
-        JPanel workInfoPanel = new JPanel(new MigLayout());
-        JTextField idField = new JTextField("Номер работы");
-        JTextField nameField = new JTextField("Номер работы");
-        JTextField startField = new JTextField("Номер работы");
-        JTextField endField = new JTextField("Номер работы");
-        JTextField mainConnField = new JTextField("Номер работы");
-        JTextField secConnField = new JTextField("Номер работы");
+        p1.add(new JLabel("Название работы"));
+        p1.add(jtfName);
 
-        workInfoPanel.add(idField, "cell 0 0");
-        workInfoPanel.add(nameField, "cell 0 1 ");
-        workInfoPanel.add(startField, "cell 0 2");
-        workInfoPanel.add(endField, "cell 0 3");
-        workInfoPanel.add(mainConnField, "cell 0 4");
-        workInfoPanel.add(secConnField, "cell 0 5");
+        p1.add(new JLabel("Начало работы"));
+        p1.add(jtfStart);
 
-        mainPanel.add(workLabelsPanel, "cell 0 0, west");
-        mainPanel.add(workInfoPanel, "cell 1 0, west");
+        p1.add(new JLabel("Конец работы"));
+        p1.add(jtfEnd);
 
-        JButton submitButton = new JButton("Применить");
-        mainPanel.add(submitButton, "cell 1 1, west");
+        p1.add(new JLabel("Главная связь"));
+        p1.add(jtfMainConn);
 
+        p1.add(new JLabel("Второстепенные связи"));
+        p1.add(jtfSecConn);
 
+        JPanel p2 = new JPanel(new FlowLayout(FlowLayout.RIGHT));
+        p2.add(jbtSubmit);
+        jbtSubmit.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                workDialog.setVisible(false);
+            }
+        });
 
+        add(p1, BorderLayout.CENTER);
+        add(p2, BorderLayout.SOUTH);
 
-        this.add(mainPanel);
+    }
+    public void clearFields(){
+            jtfId.setText("");
+            jtfName.setText("");
+            jtfStart.setText("");
+            jtfEnd.setText("");
+            jtfMainConn.setText("");
+            jtfSecConn.setText("");
+    }
+
+    public void setFields(Work work){
+        clearFields();
+        if (work.getWorkId() != null ){
+            jtfId.setText(work.getWorkId());
+        }
+        if (work.getWorkName() != null ){
+            jtfName.setText(work.getWorkName());
+        }
+        if (work.getStartTime() != null ){
+            jtfStart.setText(work.getStartTime());
+        }
+        if (work.getEndTime() != null ){
+            jtfEnd.setText(work.getEndTime());
+        }
+        if (work.getMainConn() != null ){
+            jtfMainConn.setText(work.getMainConn());
+        }
+        //jtfSecConn.setText(work.getSecondaryConn());
+
     }
 
 

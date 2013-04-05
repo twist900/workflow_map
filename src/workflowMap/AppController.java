@@ -4,13 +4,6 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-/**
- * Created with IntelliJ IDEA.
- * User: 1
- * Date: 19.03.13
- * Time: 16:26
- * To change this template use File | Settings | File Templates.
- */
 public class AppController implements ActionListener {
 
     Application applicationObj;
@@ -30,7 +23,9 @@ public class AppController implements ActionListener {
             cardLayout.show(applicationObj.cardPanel, Application.DIAGRAMPANEL);
         }
         else if(e.getSource() == applicationObj.addBtn){
+            //applicationObj.workDialog.setFields(wor)
             applicationObj.workDialog.setVisible(true);
+
         }
     }
 }

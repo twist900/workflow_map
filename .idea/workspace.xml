@@ -2,239 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fc88824-8ac2-40a3-af3f-ed671d7f4e32" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/miglayout-4.0.jar" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\analysis\mxAnalysisUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\analysis\mxConstantCostFunction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\analysis\mxDistanceCostFunction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\analysis\mxFibonacciHeap.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\analysis\mxGraphAnalysis.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\analysis\mxGraphProperties.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\analysis\mxICostFunction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\analysis\mxTraversal.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\analysis\mxUnionFind.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\analysis\package.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\canvas\mxBasicCanvas.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\canvas\mxGraphics2DCanvas.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\canvas\mxGraphicsCanvas2D.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\canvas\mxHtmlCanvas.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\canvas\mxICanvas.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\canvas\mxICanvas2D.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\canvas\mxImageCanvas.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\canvas\mxSvgCanvas.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\canvas\mxVmlCanvas.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\canvas\package.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\graphml\mxGraphMlConstants.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\graphml\mxGraphMlData.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\graphml\mxGraphMlEdge.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\graphml\mxGraphMlGraph.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\graphml\mxGraphMlKey.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\graphml\mxGraphMlKeyManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\graphml\mxGraphMlNode.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\graphml\mxGraphMlPort.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\graphml\mxGraphMlShapeEdge.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\graphml\mxGraphMlShapeNode.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\graphml\mxGraphMlUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\mxCellCodec.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\mxChildChangeCodec.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\mxCodec.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\mxCodecRegistry.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\mxGdCodec.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\mxGenericChangeCodec.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\mxGraphMlCodec.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\mxModelCodec.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\mxObjectCodec.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\mxRootChangeCodec.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\mxStylesheetCodec.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\mxTerminalChangeCodec.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\io\package.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\hierarchical\model\mxGraphAbstractHierarchyCell.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\hierarchical\model\mxGraphHierarchyEdge.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\hierarchical\model\mxGraphHierarchyModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\hierarchical\model\mxGraphHierarchyNode.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\hierarchical\model\mxGraphHierarchyRank.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\hierarchical\mxHierarchicalLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\hierarchical\stage\mxCoordinateAssignment.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\hierarchical\stage\mxHierarchicalLayoutStage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\hierarchical\stage\mxMedianHybridCrossingReduction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\hierarchical\stage\mxMinimumCycleRemover.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\mxCircleLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\mxCompactTreeLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\mxEdgeLabelLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\mxFastOrganicLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\mxGraphLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\mxIGraphLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\mxOrganicLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\mxParallelEdgeLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\mxPartitionLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\mxStackLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\orthogonal\model\mxOrthogonalModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\orthogonal\model\mxPointPair.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\orthogonal\model\mxPointSequence.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\orthogonal\model\mxSegment.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\orthogonal\mxOrthogonalLayout.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\layout\package.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\model\mxCell.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\model\mxCellPath.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\model\mxGeometry.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\model\mxGraphModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\model\mxICell.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\model\mxIGraphModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\model\package.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\reader\mxDomOutputParser.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\reader\mxGraphViewImageReader.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\reader\mxGraphViewReader.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\reader\mxSaxOutputHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\reader\package.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\resources\graph.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\resources\graph_de.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\resources\graph_es.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\resources\graph_fr.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\resources\graph_it.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\resources\graph_ja.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\resources\graph_nl.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\resources\graph_pt.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\resources\graph_ru.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\resources\graph_zh.properties" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxActorShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxArrowShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxBasicShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxCloudShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxConnectorShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxCurveLabelShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxCurveShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxCylinderShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxDefaultTextShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxDoubleEllipseShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxEllipseShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxHexagonShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxHtmlTextShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxIMarker.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxIShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxITextShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxImageShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxLabelShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxLineShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxMarkerRegistry.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxRectangleShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxRhombusShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxStencil.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxStencilRegistry.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxStencilShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxSwimlaneShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\shape\mxTriangleShape.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\sharing\mxSession.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\sharing\mxSharedGraphModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\sharing\mxSharedState.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\sharing\package.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxCellHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxCellMarker.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxCellTracker.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxConnectPreview.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxConnectionHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxEdgeHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxElbowEdgeHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxGraphHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxGraphTransferHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxInsertHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxKeyboardHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxMovePreview.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxPanningHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxRotationHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxRubberband.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxSelectionCellsHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\mxVertexHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\handler\package.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\images\collapsed.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\images\expanded.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\images\rotate.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\images\warning.gif" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\mxGraphComponent.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\mxGraphOutline.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\package.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\util\mxAnimation.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\util\mxCellOverlay.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\util\mxGraphActions.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\util\mxGraphTransferable.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\util\mxICellOverlay.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\util\mxMorphing.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\util\mxMouseAdapter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\util\mxSwingConstants.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\util\package.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\view\mxCellEditor.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\view\mxCellStatePreview.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\view\mxICellEditor.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\view\mxInteractiveCanvas.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\swing\view\package.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxBase64.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxCellRenderer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxConstants.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxCurve.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxDomUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxEvent.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxEventObject.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxEventSource.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxImage.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxImageBundle.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxLightweightLabel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxLine.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxPoint.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxRectangle.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxResources.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxSpline.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxSpline1D.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxStyleUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxUndoManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxUndoableEdit.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\mxXmlUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\package.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\png\mxPngEncodeParam.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\png\mxPngImageEncoder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\png\mxPngSuggestedPaletteEntry.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\png\mxPngTextDecoder.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\AWTPathProducer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\AWTPolygonProducer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\AWTPolylineProducer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\AbstractParser.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\CSSConstants.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\DefaultErrorHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\ErrorHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\ExtendedGeneralPath.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\ExtendedPathIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\NormalizingReader.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\NumberParser.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\ParseException.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\Parser.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\PathHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\PathParser.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\PointsHandler.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\PointsParser.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\ShapeProducer.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\util\svg\StringNormalizingReader.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\view\mxCellState.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\view\mxConnectionConstraint.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\view\mxEdgeStyle.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\view\mxGraph.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\view\mxGraphSelectionModel.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\view\mxGraphView.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\view\mxLayoutManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\view\mxMultiplicity.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\view\mxPerimeter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\view\mxSpaceManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\view\mxStyleRegistry.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\view\mxStylesheet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\view\mxSwimlaneManager.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\view\mxTemporaryCellStates.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\mxgraph\view\package.html" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\testForm1.form" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\1\IdeaProjects\workflow_map\src\testForm1.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/workflow_map.iml" afterPath="$PROJECT_DIR$/workflow_map.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/workflowMap/AppController.java" afterPath="$PROJECT_DIR$/src/workflowMap/AppController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/workflowMap/Application.java" afterPath="$PROJECT_DIR$/src/workflowMap/Application.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/workflowMap/WorkDialog.java" afterPath="$PROJECT_DIR$/src/workflowMap/WorkDialog.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/workflowMap/WorksTableModel.java" afterPath="$PROJECT_DIR$/src/workflowMap/WorksTableModel.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="workflow_map.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="7fc88824-8ac2-40a3-af3f-ed671d7f4e32" time="1365156524259" ignored="false" />
+    <file path="/Dummy.txt" changelist="7fc88824-8ac2-40a3-af3f-ed671d7f4e32" time="1365168392206" ignored="false" />
+    <file path="/WorkDialog.java" changelist="7fc88824-8ac2-40a3-af3f-ed671d7f4e32" time="1365167970659" ignored="false" />
+    <file path="/AppController.java" changelist="7fc88824-8ac2-40a3-af3f-ed671d7f4e32" time="1365164578072" ignored="false" />
+    <file path="/Application.java" changelist="7fc88824-8ac2-40a3-af3f-ed671d7f4e32" time="1365167708045" ignored="false" />
+    <file path="/WorksTableModel.java" changelist="7fc88824-8ac2-40a3-af3f-ed671d7f4e32" time="1365167553578" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -289,6 +69,21 @@
         <option name="CONDITION" value="" />
         <option name="LOG_MESSAGE" value="" />
       </breakpoint>
+      <breakpoint url="file://$PROJECT_DIR$/src/workflowMap/AppController.java" line="2" class="AppController.java" package="">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="REMOVE_AFTER_HIT" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
     </line_breakpoints>
     <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
     <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
@@ -336,10 +131,72 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Application.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="Application.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/workflowMap/Application.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="44" selection-start="104" selection-end="104" vertical-scroll-proportion="0.1491228">
+            <state line="190" column="7" selection-start="6461" selection-end="6461" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AppController.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/workflowMap/AppController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="5" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorkDialog.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/workflowMap/WorkDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="29" column="8" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.51829267">
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1633#1804#0" expanded="true" />
+                <element signature="e#1793#1794#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DAO.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/workflowMap/DAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="63" column="22" selection-start="2150" selection-end="2150" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JDialog.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_03/src.zip!/javax/swing/JDialog.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="96" column="13" selection-start="2862" selection-end="2862" vertical-scroll-proportion="791.32">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WorksTableModel.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/workflowMap/WorksTableModel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Work.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/workflowMap/Work.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="13" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -371,22 +228,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/workflowMap/DAO.java" />
         <option value="$PROJECT_DIR$/src/workflowMap/DiagramModel.java" />
         <option value="$PROJECT_DIR$/src/workflowMap/Work.java" />
         <option value="$PROJECT_DIR$/src/workflowMap/DiagramController.java" />
         <option value="$PROJECT_DIR$/src/workflowMap/WorksTableController.java" />
         <option value="$PROJECT_DIR$/src/workflowMap/AppWindow.java" />
-        <option value="$PROJECT_DIR$/src/workflowMap/AppController.java" />
         <option value="$PROJECT_DIR$/src/mxgraph/view/mxStylesheet.java" />
-        <option value="$PROJECT_DIR$/src/workflowMap/Application.java" />
-        <option value="$PROJECT_DIR$/src/workflowMap/WorkDialog.java" />
         <option value="$PROJECT_DIR$/src/workflowMap/DiagramView.java" />
         <option value="$PROJECT_DIR$/src/testForm.form" />
         <option value="$PROJECT_DIR$/src/testForm2.form" />
         <option value="$PROJECT_DIR$/src/testForm3.form" />
         <option value="$PROJECT_DIR$/src/testForm1.form" />
         <option value="$PROJECT_DIR$/src/testForm1.java" />
+        <option value="$PROJECT_DIR$/src/workflowMap/WorksTableModel.java" />
+        <option value="$PROJECT_DIR$/src/workflowMap/AppController.java" />
+        <option value="$PROJECT_DIR$/src/workflowMap/Application.java" />
+        <option value="$PROJECT_DIR$/src/workflowMap/WorkDialog.java" />
       </list>
     </option>
   </component>
@@ -459,6 +316,10 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="workflowMap" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -506,6 +367,7 @@
     <property name="options.lastSelected" value="project.propVCSSupport.Ignored.Files" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="dynamic.classpath" value="false" />
     <property name="options.searchVisible" value="true" />
   </component>
   <component name="RunManager" selected="Application.Main">
@@ -665,6 +527,11 @@
       <created>1353649958794</created>
       <updated>1353649958794</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;adds jgraphx and miglayout libraries to project, deletes a form&quot;">
+      <created>1365156827656</created>
+      <updated>1365156827656</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -692,7 +559,7 @@
     <editor active="false" />
     <layout>
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32947233" sideWeight="0.6703755" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32962447" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.50764954" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298969" sideWeight="0.77374303" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Problems" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25032175" sideWeight="0.6703755" order="4" side_tool="false" content_ui="tabs" />
@@ -701,12 +568,13 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22346368" sideWeight="0.14110824" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24002574" sideWeight="0.21896791" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32684284" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32267037" sideWeight="0.45876288" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32962447" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24162371" sideWeight="0.33519554" order="0" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294271" sideWeight="0.7785714" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3996114" sideWeight="0.6703911" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23938224" sideWeight="0.6703755" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22036262" sideWeight="0.85438144" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23938224" sideWeight="0.4923505" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21974966" sideWeight="0.85438144" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" x="92" y="92" width="1412" height="676" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -717,7 +585,6 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32714286" sideWeight="0.49484536" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32267037" sideWeight="0.45876288" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -763,7 +630,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Enable WorksTableModel to display its selected row in WorkDialog&quot;" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -777,6 +644,8 @@
     <option name="UPDATE_FILTER_BY_SCOPE" value="false" />
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="&quot;adds jgraphx and miglayout libraries to project, deletes a form&quot;" />
+    <MESSAGE value="&quot;Enable WorksTableModel to display its selected row in WorkDialog&quot;" />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -823,18 +692,12 @@
     <entry file="file://$PROJECT_DIR$/src/workflowMap/WorkDialog.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1633#1804#0" expanded="true" />
+            <element signature="e#1793#1794#0" expanded="true" />
+          </folding>
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/workflowMap/AppController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="29" column="1" selection-start="0" selection-end="1132" vertical-scroll-proportion="0.45" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/workflowMap/DAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="63" column="22" selection-start="2150" selection-end="2150" vertical-scroll-proportion="0.9112426" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jgraphx-1_10_4_3/jgraphx/examples/com/mxgraph/examples/swing/editor/EditorPalette.java">
@@ -852,17 +715,60 @@
         <state line="35" column="24" selection-start="837" selection-end="837" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/workflowMap/WorkDialog.java">
+    <entry file="file://$PROJECT_DIR$/src/workflowMap/DAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="27" selection-start="49" selection-end="49" vertical-scroll-proportion="0.0372807">
+        <state line="63" column="22" selection-start="2150" selection-end="2150" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workflowMap/Work.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="13" selection-start="337" selection-end="337" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_03/src.zip!/javax/swing/JDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="96" column="13" selection-start="2862" selection-end="2862" vertical-scroll-proportion="791.32">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workflowMap/WorksTableModel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workflowMap/AppController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="114" selection-end="114" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/workflowMap/Application.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="44" selection-start="104" selection-end="104" vertical-scroll-proportion="0.1491228">
-          <folding />
+        <state line="190" column="7" selection-start="6461" selection-end="6461" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/workflowMap/WorkDialog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="8" selection-start="1011" selection-end="1011" vertical-scroll-proportion="0.51829267">
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1633#1804#0" expanded="true" />
+            <element signature="e#1793#1794#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

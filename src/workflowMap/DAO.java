@@ -27,10 +27,11 @@ public class DAO {
     public static Connection getConnection() throws Exception {
         Connection conn = null;
         try{
-            Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+            Class.forName("org.hsqldb.jdbcDriver");
             File f = new File(System.getProperty("user.dir"));
-            conn = DriverManager.getConnection("jdbc:odbc:Driver={Microsoft Access Driver" +
-                    " (*.mdb, *.accdb)}; DBQ=" + f.getPath() + "//work_flow_db.accdb", "", "");
+            //conn = DriverManager.getConnection("jdbc:odbc:Driver={Microsoft Access Driver" +
+            //        " (*.mdb, *.accdb)}; DBQ=" + f.getPath() + "//work_flow_db.accdb", "", "");
+            conn = DriverManager.getConnection("jdbc:hsqldb:" + f.getPath()+"//hsqldb//workflowjdb", "sa", "");
             return conn;
         }
         catch(ClassNotFoundException e)
@@ -46,8 +47,8 @@ public class DAO {
 
     public void setAllWorks(Connection conn){
         Statement stmt = null;
-        String query = "SELECT " + "WORK_ID, " + "WORK_NAME, " + "START_TIME, " + "END_TIME, " +
-                 "MAIN_CONN, " + "SECONDARY_CONN " + "FROM " + "WorksTable";
+        String query = "SELECT " + "id, " + "name, " + "start_time, " + "end_time, " +
+                 "main_conn, " + "sec_conn " + "FROM " + "work_table";
         try {
             stmt = conn.createStatement();
             ResultSet rs = stmt.executeQuery(query);
@@ -77,12 +78,12 @@ public class DAO {
 
             while (this.crs.next()) {
                 Work work = new Work();
-                work.setWorkId(crs.getString("WORK_ID"));
-                work.setWorkName(crs.getString("WORK_NAME"));
+                work.setWorkId(crs.getString("ID"));
+                work.setWorkName(crs.getString("NAME"));
                 work.setStartTime(crs.getString("START_TIME"));
                 work.setEndTime(crs.getString("END_TIME"));
                 work.setMainConn(crs.getString("MAIN_CONN"));
-                work.setSecondaryConn(crs.getString("SECONDARY_CONN"));
+                work.setSecondaryConn(crs.getString("SEC_CONN"));
 
                 works.add(work);
 

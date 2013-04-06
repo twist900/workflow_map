@@ -97,7 +97,6 @@ public class Application extends JFrame implements RowSetListener {
         worksTable.addMouseListener(new MouseListener() {
            @Override
            public void mouseClicked(MouseEvent e) {
-               System.out.println("row num: "+worksTable.getSelectedRow());
                workDialog.setFields(worksTableModel.getWorkFromRow(worksTable.getSelectedRow()));
                workDialog.setVisible(true);
 

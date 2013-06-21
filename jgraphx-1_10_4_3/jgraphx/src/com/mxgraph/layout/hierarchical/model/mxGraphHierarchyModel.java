@@ -312,7 +312,7 @@ public class mxGraphHierarchyModel
 			// edges have been scanned
 			boolean allEdgesScanned = true;
 
-			// workflowMap.Work out the layer of this node from the layer determining
+			// workflowMap.dataAccess.Work out the layer of this node from the layer determining
 			// edges
 			Iterator<mxGraphHierarchyEdge> iter2 = layerDeterminingEdges
 					.iterator();

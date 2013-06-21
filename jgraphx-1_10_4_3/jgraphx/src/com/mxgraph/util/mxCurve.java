@@ -652,7 +652,7 @@ public class mxCurve
 	 */
 	public mxRectangle getRelativeFromAbsPoint(mxPoint absPoint, String index)
 	{
-		// workflowMap.Work out which segment the absolute point is closest to
+		// workflowMap.dataAccess.Work out which segment the absolute point is closest to
 		mxPoint[] currentCurve = getCurvePoints(index);
 		double[] currentIntervals = getIntervals(index);
 		int closestSegment = 0;
@@ -727,7 +727,7 @@ public class mxCurve
 		if (Math.abs(closestSegDistSq - lineDistSq) > 0.0001)
 		{
 			// The orthogonal offset does not move the point onto the
-			// segment. workflowMap.Work out an additional cartesian offset that moves
+			// segment. workflowMap.dataAccess.Work out an additional cartesian offset that moves
 			// the offset point onto the closest end point of the
 			// segment
 
@@ -882,7 +882,7 @@ public class mxCurve
 			// Check we're not in the first, second or last run
 			if (x1 != -1.0 && twoLoopsComplete && t != 1.0001)
 			{
-				// workflowMap.Work out how far the new spline point
+				// workflowMap.dataAccess.Work out how far the new spline point
 				// deviates from the extrapolation created 
 				// by the last two points
 				double diffX = Math.abs(((x2 - x1) * intervalChange + x2)

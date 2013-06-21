@@ -1046,7 +1046,7 @@ public class mxCoordinateAssignment implements mxHierarchicalLayoutStage
 	 */
 	protected void minPath(mxGraphHierarchyModel model)
 	{
-		// workflowMap.Work down and up each edge with at least 2 control points
+		// workflowMap.dataAccess.Work down and up each edge with at least 2 control points
 		// trying to straighten each one out. If the same number of
 		// straight segments are formed in both directions, the 
 		// preferred direction used is the one where the final
@@ -1611,7 +1611,7 @@ public class mxCoordinateAssignment implements mxHierarchicalLayoutStage
 					// The horizontal position in a vertical layout
 					double positionX = edge.x[j] + offsetX;
 
-					// workflowMap.Work out the vertical positions in a vertical layout
+					// workflowMap.dataAccess.Work out the vertical positions in a vertical layout
 					// in the edge buffer channels above and below this rank
 					double topChannelY = (rankTopY[currentRank] + rankBottomY[currentRank + 1]) / 2.0;
 					double bottomChannelY = (rankTopY[currentRank - 1] + rankBottomY[currentRank]) / 2.0;

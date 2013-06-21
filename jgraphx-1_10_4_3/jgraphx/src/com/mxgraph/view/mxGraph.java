@@ -22,6 +22,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Set;
 
+import com.mxgraph.shape.mxBasicShape;
 import org.w3c.dom.Element;
 
 import com.mxgraph.canvas.mxGraphics2DCanvas;
@@ -7734,6 +7735,7 @@ public class mxGraph extends mxEventSource
 	public void selectAll()
 	{
 		selectAll(null);
+        mxBasicShape
 	}
 
 	/**

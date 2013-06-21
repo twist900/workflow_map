@@ -630,7 +630,7 @@ public class mxEdgeStyle
 				// dir -> [source, target] initial direction leaving vertices
 				int dir[] = new int[2];
 
-				// workflowMap.Work out which faces of the vertices present against each other
+				// workflowMap.dataAccess.Work out which faces of the vertices present against each other
 				// in a way that would allow a 3-segment connection if port constraints
 				// permitted.
 				// geo -> [source, target] [x, y, width, height]
@@ -653,7 +653,7 @@ public class mxEdgeStyle
 					limits[i][8] = geo[i][1] + geo[i][3] + scaledOrthBuffer;
 				}
 
-				// workflowMap.Work out which quad the target is in
+				// workflowMap.dataAccess.Work out which quad the target is in
 				double sourceCenX = geo[0][0] + geo[0][2] / 2.0;
 				double sourceCenY = geo[0][1] + geo[0][3] / 2.0;
 				double targetCenX = geo[1][0] + geo[1][2] / 2.0;
@@ -749,7 +749,7 @@ public class mxEdgeStyle
 				//==============================================================
 				// Start of source and target direction determination
 
-				// workflowMap.Work through the preferred orientations by relative positioning
+				// workflowMap.dataAccess.Work through the preferred orientations by relative positioning
 				// of the vertices and list them in preferred and available order
 				int dirPref[] = new int[2];
 				int horPref[] = new int[2];

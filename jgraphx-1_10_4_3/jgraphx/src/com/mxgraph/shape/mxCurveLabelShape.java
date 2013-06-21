@@ -491,7 +491,7 @@ public class mxCurveLabelShape implements mxITextShape
 
 			if (currentCurveDelta > curveDeltaSignificant)
 			{
-				// workflowMap.Work out which direction the curve is going in
+				// workflowMap.dataAccess.Work out which direction the curve is going in
 				int ccw = Line2D.relativeCCW(0, 0, x, y, end2X, end2Y);
 
 				if (ccw == 1)

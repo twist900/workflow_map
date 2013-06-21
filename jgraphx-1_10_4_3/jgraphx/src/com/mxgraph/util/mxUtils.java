@@ -434,7 +434,7 @@ public class mxUtils
 			{
 				String word = wordStack.pop();
 
-				// workflowMap.Work out what whitespace exists before this word.
+				// workflowMap.dataAccess.Work out what whitespace exists before this word.
 				// and add the width of the whitespace to the calculation
 				int whitespaceCount = 0;
 

@@ -10,21 +10,7 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/jgraphx.jar!/" />
-        </CLASSES>
-        <JAVADOC>
-          <root url="file://$MODULE_DIR$/jgraphx-1_10_4_3/jgraphx/docs/api" />
-        </JAVADOC>
-        <SOURCES>
-          <root url="file://$MODULE_DIR$/jgraphx-1_10_4_3/jgraphx/src" />
-          <root url="file://$MODULE_DIR$/jgraphx-1_10_4_3/jgraphx/examples" />
-        </SOURCES>
-      </library>
-    </orderEntry>
-    <orderEntry type="module-library" exported="">
-      <library>
-        <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/miglayout-4.0.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/hsqldb.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
@@ -33,7 +19,27 @@
     <orderEntry type="module-library" exported="">
       <library>
         <CLASSES>
-          <root url="jar://$MODULE_DIR$/lib/hsqldb.jar!/" />
+          <root url="jar://$MODULE_DIR$/lib/itextpdf-5.4.2.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/jgraphx.jar!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/jgraphx-1_10_4_3/jgraphx/src" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library" exported="">
+      <library>
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/lib/miglayout-4.0.jar!/" />
         </CLASSES>
         <JAVADOC />
         <SOURCES />
